@@ -1,0 +1,30 @@
+.stopwatch-display{
+    margin: auto;
+    text-align: center;
+    margin: 20vh 30vw 0;
+    font-size: 3rem;
+    padding: 0.5rem 2rem;
+    background-color: aqua;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.button-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin: 2rem 10rem;
+}
+.button-number{
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+#Setbutton{
+    background-color: #00e400;
+
+}
+#Clearbutton{
+    background-color: #ff0000;
+
+} 
