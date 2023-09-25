@@ -1,0 +1,15 @@
+.effect-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 1rem;
+    align-items: center;
+    justify-content: start;
+    font-size: 0.75rem;
+
+}
+.selected-effect{
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: underline;
+}

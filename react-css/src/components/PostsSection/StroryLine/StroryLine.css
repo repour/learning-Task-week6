@@ -1,0 +1,15 @@
+.story-line img{
+    border: 1px solid #A0B0FC;
+    border-radius: 100%;
+}
+.story-line .Add{
+    border: none;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: #E6EAFC;
+}
+.story-line p{
+    font-size: 12px;
+    color: #171923;
+}

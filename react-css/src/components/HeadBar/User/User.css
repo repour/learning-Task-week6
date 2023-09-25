@@ -1,0 +1,15 @@
+.User{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.User div{
+    margin-right: 1rem;
+}
+.User h4{
+    font-size: 13px;
+}
+.User p{
+    font-size: 12px;
+}

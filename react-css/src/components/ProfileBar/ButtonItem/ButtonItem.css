@@ -1,0 +1,18 @@
+button:hover{
+    opacity: 70%;
+    transition:ease all 0.5s;
+}
+.Home{
+    background-color: #EAEDFB;
+    color: #171923;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    padding: 16px;
+    margin: 0 30px;
+    width: calc(100% - 4rem);
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    cursor: pointer;
+}

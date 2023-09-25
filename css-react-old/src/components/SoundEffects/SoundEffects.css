@@ -1,0 +1,14 @@
+.wrapper-sound-effect{
+    margin: 4rem 4rem 3rem;
+    text-align: left;
+}
+.wrapper-sound-effect h2{
+    font-size: 1.5rem;
+}
+a{
+    font-size: 0.75rem;
+}
+.wrapper-sound-effect a{
+    display: block;
+    margin: 3rem 0 6rem;
+}

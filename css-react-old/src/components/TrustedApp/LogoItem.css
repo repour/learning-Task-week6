@@ -1,0 +1,10 @@
+.logo-item{
+    aspect-ratio: 16 / 9;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    background-position: center;
+}

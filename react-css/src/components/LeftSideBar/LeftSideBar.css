@@ -1,0 +1,30 @@
+.contacts , .suggests-page{
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: #FCFCFC;
+    border-radius: 10px;    
+}
+.left-side h4{
+    font-size: 13px;
+    color: #171923;
+}
+.left-side span{
+    color: #5B5D67;
+    font-size: 13px;
+}
+.left-side a{
+    font-size: 13px;
+    text-decoration: none;
+}
+.suggests-page img{
+    aspect-ratio: 1/1;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+.border{
+    margin:0.75rem auto 1rem;
+    border: 1px solid #E7E8EF;
+    width: 98%;
+}

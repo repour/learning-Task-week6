@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pulp Display';
+}
+p , a{
+    font-family: "Inter";
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: max-content 1fr;
+    gap: 1.5rem;
+    background-color: #F4F5F9;
+}

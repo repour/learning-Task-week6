@@ -1,0 +1,10 @@
+.app-container{
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 1.5rem 0;
+}
+.app-container p{
+    margin: 3rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,33 @@
+.profile-bar{
+    grid-row: 2 span;
+    position: relative;
+    background-color: #FCFCFC;
+    border-radius:0 0 10px 10px;
+    height: 800px;
+}
+.my-profile, .mobile-sec{
+    margin: 2rem ;
+}
+.my-profile{
+    display: flex;
+    width: calc(100% - 4rem);
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+}
+.my-profile span{
+    font-size: 25px;
+}
+.mobile-sec{
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    background-color: #E8ECFD;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.mobile-sec h3 {
+    font-size: 13px;
+    margin: 1.5rem 0;
+}

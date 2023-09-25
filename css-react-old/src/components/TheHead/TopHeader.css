@@ -1,0 +1,24 @@
+.header-sec{
+    display: flex;
+    padding: 2rem 5rem;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.left-header{
+    display: flex;
+    position: absolute;
+    right: 5rem;
+    color: #FFFFFF;
+}
+.log-but{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #0432DF;
+    background-color: #0432DF;
+    color: #FFFFFF;
+    margin-left: 2rem;
+}

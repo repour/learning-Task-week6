@@ -1,0 +1,30 @@
+.add-post-item{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.form-control{
+    margin-bottom: 1.5rem;
+}
+.form-control input{
+    border: none;
+    background-color: #FAFBFF;
+    width: 85%;
+    padding: 1rem 0;
+    border-radius: 8px;
+
+}
+.form-control input::placeholder{
+    font-size: 12px;
+    color: #5B5D67;
+    font-family: "Inter";
+    padding: 0.5rem;
+}
+.form-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}

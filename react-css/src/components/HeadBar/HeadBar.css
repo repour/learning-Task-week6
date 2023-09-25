@@ -1,0 +1,32 @@
+.head-bar{
+    display: flex;
+    grid-column: 2 span;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    margin: 1.5rem 2rem 0;
+    padding: 0.85rem 1.5rem;
+    border-radius: 10px;
+}
+.left_head, .Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.75rem;
+    
+}
+.left_head{
+    gap: 1.5rem;
+}
+button{
+    background: #4361EE;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    cursor: pointer;
+}

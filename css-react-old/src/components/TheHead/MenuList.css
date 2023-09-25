@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+.selected{
+    font-size: 0.75rem;
+    font-weight: 600;
+}

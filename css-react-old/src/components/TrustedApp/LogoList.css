@@ -1,0 +1,6 @@
+.logo-list{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin: 0 2rem 3rem;
+}
