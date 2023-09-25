@@ -13,7 +13,7 @@ const Div = styled.div`
 
 const SideList = props => {
   return (
-    <Div>
+    <Div className='side-bar'>
         <img src={props.listPhoto} className={props.listName} alt={props.listName} />
         <span>{props.listName}</span>
     </Div>

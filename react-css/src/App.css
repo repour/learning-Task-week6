@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Pulp Display';
 }
-p , a{
+p , a, span{
     font-family: "Inter";
 }
 .container{

@@ -27,7 +27,8 @@ const CreatePost = props => {
         'postPhoto': './PostsSection/CreatePost/Profile.svg',
         'postName': 'Chandan S',
         'postDate': 'now',
-        'postContent': ''
+        'postContent': '',
+        'postMedia':''
     })
 
 
@@ -42,7 +43,8 @@ const CreatePost = props => {
     const handleAddPost = () => {
         if (formData.postContent) {
             props.addPost(
-                formData.postContent
+                formData.postContent,
+                formData.postMedia
             )
         } else {
             return 

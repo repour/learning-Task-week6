@@ -9,6 +9,7 @@ const Button = styled.button`
     color: #5B5D67;
     border-radius: 10px;
     font-size: 12px;
+    font-family: "Inter";
     border: none;
     display: flex;
     padding: 8px 16px;

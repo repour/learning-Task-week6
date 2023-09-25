@@ -8,20 +8,21 @@ const Posts = () => {
   const [nextId, setNextId] = useState(postsList.length + 1)
 
 
-  const addPost = (content) => {
+  const addPost = (content, media) => {
 
     setPosts(
       [
-        ...posts,
         {
           postID: nextId,
           postPhoto: './PostsSection/CreatePost/Profile.svg',
           postName: 'Chandan S',
           postTime: 'now',
           postContent: content,
+          postMedia: media,
           postLike: '0 Likes',
           postComment: '0 Comments'
-        }
+        },
+        ...posts
       ]
     )
     setNextId(nextId + 1)

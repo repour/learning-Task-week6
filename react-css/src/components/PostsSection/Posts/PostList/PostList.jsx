@@ -18,10 +18,11 @@ const PostList = props => {
               postID={post.postID}
               postName={post.postName}
               postPhoto={post.postPhoto}
-              postTime={props.postTime}
-              postContent={props.postContent}
-              postLike={props.postLike}
-              postComment={props.postComment} />
+              postTime={post.postTime}
+              postContent={post.postContent}
+              postMedia={post.postMedia}
+              postLike={post.postLike}
+              postComment={post.postComment} />
           )
         })
       }
@@ -39,6 +40,7 @@ PostList.propTypes = {
       postPhoto: PropTypes.string.isRequired,
       postTime: PropTypes.string.isRequired,
       postContent: PropTypes.string.isRequired,
+      postMedia: PropTypes.string.isRequired,
       postLike: PropTypes.string.isRequired,
       postComment: PropTypes.string.isRequired
     }).isRequired
