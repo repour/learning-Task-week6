@@ -7,6 +7,7 @@
     margin-top: 1rem;
     font-size: 0.75rem;
     color: #4C526A;
+    font-family: "Inter";
 }
 .comment img{
     margin-top: 2rem;
@@ -14,8 +15,10 @@
 .comment h3{
     font-size: 1rem;
     color: #020D37;
+    font-family: "Inter";
 }
 .comment span{
     font-size: 0.75rem;
-    color: #ACAFB8;
+    color: #ACAFB8;    
+    font-family: "Inter";
 }

@@ -12,3 +12,6 @@ a{
     display: block;
     margin: 3rem 0 6rem;
 }
+.wrapper-sound-effect li{
+    font-family: "Inter";
+}

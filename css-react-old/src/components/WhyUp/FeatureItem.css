@@ -4,15 +4,17 @@
     align-items:flex-start ;
     justify-content: start;
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 .feature-item h1{
-    margin-top: 1rem;
+    margin: 1rem 0 0.5rem;
     font-size: 1rem;
     color: #020D37;
+    font-family: "Inter";
 }
 .feature-item p{
     color: #4C526A;
     font-size: 0.75rem;
     width: 18vw;
+    font-family: "Inter";
 }

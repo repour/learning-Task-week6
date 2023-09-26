@@ -8,7 +8,9 @@
     color: #ACAFB8;
 }
 .footer p{
-    margin: 0.5rem;
+    margin: 1rem;
+    font-family: "Inter";
+    font-size: 0.85rem;
 }
 .footer .parag-footer{
     font-size: 0.9rem;
@@ -16,10 +18,13 @@
 }
 .footer span{
     font-size: 0.75rem;
-    padding-top: 1.5rem;
-
+    font-family: "Inter";
 }
 .left-sec-footer{
     width: 24vw;
     text-align: left;
+}
+.footer h4{
+    font-family: "Inter";
+    color: #EEEEEE;
 }

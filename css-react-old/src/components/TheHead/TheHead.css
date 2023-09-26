@@ -9,6 +9,9 @@
     background-size: cover;
     color: #FFFFFF;
 }
+.the-head h2, .the-head p, .the-head input{
+    font-family: "Inter";
+}
 h1{
     margin-top: 6rem;
 }
