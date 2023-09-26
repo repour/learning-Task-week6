@@ -48,3 +48,16 @@
     width: 98%;
     margin: auto;
 }
+@media screen and(max-width: 1150px) {
+    .track-list3 {
+        width: 30vw;
+        margin-right: 3rem;
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .track-list4{
+        display: none;
+    }
+
+}

@@ -1,4 +1,4 @@
-.logo-item{
+.logo-item {
     aspect-ratio: 16 / 9;
     display: flex;
     flex: 1;
@@ -7,4 +7,5 @@
     background-repeat: no-repeat;
     border-radius: 1rem;
     background-position: center;
+    background-size: contain;
 }

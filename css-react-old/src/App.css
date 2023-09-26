@@ -9,4 +9,13 @@
 *{
   font-family: Poppins;
 }
-
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+}

@@ -22,3 +22,8 @@
     color: #ACAFB8;    
     font-family: "Inter";
 }
+@media screen and (max-width: 825px) {
+    .comment:nth-last-child(1){
+        display: none;
+    }
+}

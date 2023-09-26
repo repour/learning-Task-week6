@@ -11,6 +11,9 @@ const TopHeader = () => {
           <MenuList />
           <button className='log-but'>Login</button>
         </div>
+        <div className='left_header_tablet'>
+          <img src="./TheHead/menu.svg" alt="burger-menu" />
+        </div>
 
 
     </div>

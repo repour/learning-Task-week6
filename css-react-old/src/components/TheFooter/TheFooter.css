@@ -28,3 +28,52 @@
     font-family: "Inter";
     color: #EEEEEE;
 }
+.tablet-container{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        display: none;
+    }
+    .tablet-container{
+        margin-top: 6.5rem;
+        background-color: #020D37;
+        padding: 3rem 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        color: #ACAFB8;
+    }
+    .tablet-footer-list{
+        margin-top: 2rem;
+        background-color: #020D37;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        color: #ACAFB8;
+        text-align: left;
+        width: 75vw;
+    }
+    .tablet-container p{
+        margin: 0.75rem 0;
+        font-family: "Inter";
+        font-size: 0.85rem;
+    }
+    .tablet-container .parag-footer{
+        font-size: 0.9rem;
+        margin: 1rem 0 1.25rem;
+    }
+    .tablet-container span{
+        font-size: 0.75rem;
+        font-family: "Inter";
+    }
+    .left-sec-footer{
+        width: 40vw;
+        text-align: left;
+    }
+    .tablet-container h4{
+        font-family: "Inter";
+        color: #EEEEEE;
+    }
+}

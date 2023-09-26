@@ -28,3 +28,12 @@ input::placeholder {
     margin-top: 0.5rem;
     font-size: 0.75rem;
 }
+@media screen and (max-width: 770px) {
+    .search-sec{
+        width: 80vw;
+    }
+    .search-box{
+        width:100%;
+        padding: 1.5rem 30px 1.5rem 20px;
+    }
+}

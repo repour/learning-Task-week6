@@ -14,8 +14,6 @@ const FooterList = props => {
   )
 }
 
-FooterList.propTypes = {
-    list:PropTypes.arrayOf().isRequired
-}
+
 
 export default FooterList

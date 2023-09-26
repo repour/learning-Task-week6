@@ -18,3 +18,18 @@
     color: #F59E00;
     font-size: 0.75rem;
 }
+@media screen and (max-width: 800px) {
+    .why-up{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6rem 4rem 8rem;
+        gap: 2rem;
+    }
+    .why-us{
+        text-align: center;
+        width: 60vw;
+    }
+}
