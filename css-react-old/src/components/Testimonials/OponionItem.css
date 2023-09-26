@@ -1,0 +1,21 @@
+.comment{
+    padding: 1.5rem; 
+    border-radius: 8px;
+    border: 1px solid #EEE;   
+}
+.testimonial .comment p{
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: #4C526A;
+}
+.comment img{
+    margin-top: 2rem;
+}
+.comment h3{
+    font-size: 1rem;
+    color: #020D37;
+}
+.comment span{
+    font-size: 0.75rem;
+    color: #ACAFB8;
+}

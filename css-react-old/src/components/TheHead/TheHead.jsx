@@ -8,7 +8,7 @@ import "./TheHead.css"
 const TheHead = () => {
   return (
     <div className='the-head'>
-        <div><TopHeader /></div>  
+        <div className='top-header'><TopHeader /></div>  
         <h1>Free download sound effects without copyright</h1>
         <h2>Download free copyright sound effect for your YouTube video and any use.</h2>
         <div><SearchBar /></div>

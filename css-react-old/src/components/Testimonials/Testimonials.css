@@ -1,0 +1,15 @@
+.testimonial p{
+    color: #F59E00;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.testimonial h2{
+    color: #020D37;
+    font-size: 1.4rem;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
