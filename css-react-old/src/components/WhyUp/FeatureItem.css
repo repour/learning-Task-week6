@@ -5,6 +5,8 @@
     justify-content: start;
     text-align: left;
     margin-left: 4rem;
+    width: 18vw;
+
 }
 .feature-item h1{
     margin: 1rem 0 0.5rem;
@@ -15,6 +17,5 @@
 .feature-item p{
     color: #4C526A;
     font-size: 0.75rem;
-    width: 18vw;
     font-family: "Inter";
 }

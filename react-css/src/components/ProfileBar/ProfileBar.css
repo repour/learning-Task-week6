@@ -1,9 +1,11 @@
 .profile-bar{
     grid-row: 2 span;
-    position: relative;
+    position: sticky;
     background-color: #FCFCFC;
     border-radius:0 0 10px 10px;
-    height: 800px;
+    height: 100vh;
+    top:0;
+    z-index: 1;
 }
 .my-profile, .mobile-sec{
     margin: 2rem ;

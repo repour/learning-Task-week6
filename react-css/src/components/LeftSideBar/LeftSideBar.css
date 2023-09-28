@@ -5,6 +5,11 @@
     background-color: #FCFCFC;
     border-radius: 10px;    
 }
+.left-side{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 .left-side h4{
     font-size: 13px;
     color: #171923;
