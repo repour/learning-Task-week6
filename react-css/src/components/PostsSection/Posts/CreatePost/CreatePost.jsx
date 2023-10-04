@@ -46,6 +46,10 @@ const CreatePost = props => {
                 formData.postContent,
                 formData.postMedia
             )
+            setFormData({
+                ...formData,
+                'postContent': ''
+            })
         } else {
             return 
         }
